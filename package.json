@@ -1,0 +1,18 @@
+{
+  "name": "tableau-ai-story-generator",
+  "version": "1.0.0",
+  "description": "AI驱动的Tableau数据故事生成器",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server -p 8766 --cors",
+    "dev": "nodemon --watch src --ext js,html,css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "http-server": "^14.1.1"
+  },
+  "devDependencies": {
+    "@tableau/extensions-api-types": "^1.7.0",
+    "nodemon": "^2.0.22"
+  }
+} 

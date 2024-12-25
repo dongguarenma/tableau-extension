@@ -1,0 +1,14 @@
+.story {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.story h2 {
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.story p {
+    line-height: 1.6;
+    margin-bottom: 10px;
+} 

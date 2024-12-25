@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest manifest-version="0.1" xmlns="http://www.tableau.com/xml/extension_manifest">
+  <worksheet-extension id="com.example.ai.story.generator" extension-version="0.1.0">
+    <default-locale>zh_CN</default-locale>
+    <name>AI 数据故事生成器</name>
+    <description>使用AI自动分析数据趋势并生成数据洞察报告</description>
+    <author name="Your Name" email="your.email@example.com" organization="Your Org" website="https://www.example.com"/>
+    <min-api-version>1.1</min-api-version>
+    <source-location>
+      <url>https://[你的GitHub用户名].github.io/tableau-extension/</url>
+    </source-location>
+    <icon/>
+    <permissions>
+      <permission>full data</permission>
+    </permissions>
+    <!-- 添加数据编码 -->
+    <encoding id="data">
+      <display-name>数据</display-name>
+      <data-spec>
+        <data-type>numeric</data-type>
+      </data-spec>
+    </encoding>
+  </worksheet-extension>
+</manifest> 
